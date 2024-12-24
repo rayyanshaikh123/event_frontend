@@ -1,12 +1,12 @@
 .chatbot-iframe {
     width: 100%;
-    height: 700px;
+    height: 100%;
     border-radius: 20px;
   }
   
   .chatbot-iframe-container {
     width: 30%;
-    height: 700px;
+   height: 80vh;
     border: 2px solid black;
     border-radius: 20px;
     z-index: 1001;
@@ -34,20 +34,46 @@
         right: 60px;
     }
   }
+  @media (max-height: 800px) {
+    .chatbot-iframe-container{
+        height: 94vh;
+       
+    }
+    .chatbot-iframe{
+        height: 87vh;
+       
+    }
+  }
   @media (max-width: 600px) {
     .chatbot-iframe-container{
         width: 80%;
         right: 60px;
         bottom:30px;
-        height: 500px;
+        
+    }
+  }
+  @media (max-height: 600px) {
+    .chatbot-iframe-container{
+        height: 80vh;
+       
+    }
+    .chatbot-iframe{
+        height: 100%;
+       
     }
   }
   @media (max-width: 400px) {
     .chatbot-iframe-container{
         width: 85%;
         right: 40px;
-        bottom:10px;
-        height: 300px;
+        bottom:50px;
+        
+    }
+  }
+  @media (max-height: 400px) {
+    .chatbot-iframe-container{
+        height: 80vw;
+       
     }
   }
   @media (max-width: 360px) {
@@ -55,7 +81,7 @@
         width: 90%;
         right: 20px;
         bottom:0;
-        height: 250px;
+        
     }
   }
   .chatbot-toggle-button {
