@@ -12,13 +12,13 @@ function EventUpdatePage() {
     });
 
     const fetchEvent = async () => {
-        const response = await axios.get(`http://localhost:5000/events/${id}`);
+        const response = await axios.get(`https://event-backend-e5ex.onrender.com/events/${id}`);
         setForm(response.data);
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.put(`http://localhost:5000/events/${id}`, form);
+        await axios.put(`https://event-backend-e5ex.onrender.com/events/${id}`, form);
         navigate('/');
     };
 

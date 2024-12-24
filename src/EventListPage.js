@@ -10,12 +10,12 @@ function EventListPage() {
     }, []);
 
     const fetchEvents = async () => {
-        const response = await axios.get('http://localhost:5000/events');
+        const response = await axios.get('https://event-backend-e5ex.onrender.com/events');
         setEvents(response.data);
     };
 
     const handleDelete = async (id) => {
-        await axios.delete(`http://localhost:5000/events/${id}`);
+        await axios.delete(`https://event-backend-e5ex.onrender.com/events/${id}`);
         fetchEvents();
     };
 
