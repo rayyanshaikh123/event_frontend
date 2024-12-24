@@ -39,6 +39,7 @@
         width: 80%;
         right: 60px;
         bottom:30px;
+        height: 500px;
     }
   }
   @media (max-width: 400px) {
@@ -46,6 +47,7 @@
         width: 85%;
         right: 40px;
         bottom:10px;
+        height: 300px;
     }
   }
   @media (max-width: 360px) {
@@ -53,6 +55,7 @@
         width: 90%;
         right: 20px;
         bottom:0;
+        height: 250px;
     }
   }
   .chatbot-toggle-button {
