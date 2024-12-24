@@ -6,6 +6,7 @@
   
   .chatbot-iframe-container {
     width: 30%;
+    height: 700px;
     border: 2px solid black;
     border-radius: 20px;
     z-index: 1001;
