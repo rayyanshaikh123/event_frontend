@@ -21,73 +21,7 @@
   .chatbot-iframe-container.slide-out-right {
     animation: slideInFromRight 0.3s ease-out forwards; /* Slide out to the right */
   }
-  @media (max-width: 1000px) {
-    .chatbot-iframe-container{
-        width: 40%;
-        right: 60px;
-        bottom:60px;
-    }
-  }
-  @media (max-width: 800px) {
-    .chatbot-iframe-container{
-        width: 50%;
-        right: 60px;
-    }
-  }
-  @media (max-height: 800px) {
-    .chatbot-iframe-container{
-        height: 94vh;
-       
-    }
-    .chatbot-iframe{
-        height: 87vh;
-       
-    }
-  }
-  @media (max-width: 600px) {
-    .chatbot-iframe-container{
-        width: 80%;
-        right: 60px;
-        bottom:30px;
-        
-    }
-  }
-  @media (max-height: 600px) {
-    .chatbot-iframe-container{
-        height: 80vh;
-       
-    }
-    .chatbot-iframe{
-        height: 100%;
-       
-    }
-  }
-  @media (max-width: 400px) {
-    .chatbot-iframe-container{
-        width: 85%;
-        right: 40px;
-        bottom:50px;
-        
-    }
-  }
-  @media (max-height: 400px) {
-    .chatbot-iframe{
-        height: 100%;
-       
-    }
-    .chatbot-iframe-container{
-        height: 80vh;
-       
-    }
-  }
-  @media (max-width: 360px) {
-    .chatbot-iframe-container{
-        width: 90%;
-        right: 20px;
-        bottom:0;
-        
-    }
-  }
+ 
   .chatbot-toggle-button {
     position: fixed;
     bottom: 50px;
